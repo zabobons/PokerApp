@@ -5,6 +5,8 @@ using Android.Support.V7.App;
 
 namespace PokerApp
 {
+
+    //Dulec jest najlepszy
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
