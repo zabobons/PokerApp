@@ -445,20 +445,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dulec\\.nuget\\packages\\": {}
+    "C:\\Users\\nadko\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dulec\\Source\\Repos\\PokerApp4\\PokerApp\\PokerApp.csproj",
+      "projectUniqueName": "C:\\Users\\nadko\\source\\repos\\PokerApp\\PokerApp\\PokerApp.csproj",
       "projectName": "PokerApp",
-      "projectPath": "C:\\Users\\Dulec\\Source\\Repos\\PokerApp4\\PokerApp\\PokerApp.csproj",
-      "packagesPath": "C:\\Users\\Dulec\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dulec\\Source\\Repos\\PokerApp4\\PokerApp\\obj\\",
+      "projectPath": "C:\\Users\\nadko\\source\\repos\\PokerApp\\PokerApp\\PokerApp.csproj",
+      "packagesPath": "C:\\Users\\nadko\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nadko\\source\\repos\\PokerApp\\PokerApp\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Dulec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nadko\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
