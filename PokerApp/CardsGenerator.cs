@@ -16,29 +16,29 @@ namespace PokerApp
     {  
         CardsGenerator()
         {
-            _firstCard = new Card();
-            _secondCard = new Card();
+            FirstCard = new Card();
+            SecondCard = new Card();
         }
         public void GenerateRandomCards()
         {
             var rand = new System.Random();
             int firstFigureIndex = rand.Next(0, 13);
             int firstColorIndex = rand.Next(0, 3);
-            _firstCard.figure = (Figure)firstFigureIndex;
-            _firstCard.color = (Color)firstColorIndex;
+            FirstCard.figure = (Figure)firstFigureIndex;
+            FirstCard.color = (Color)firstColorIndex;
 
             do
             {
                 int secondFigureIndex = rand.Next(0, 13);
                 int secondColorIndex = rand.Next(0, 3);
-                _secondCard.figure = (Figure)secondFigureIndex;
-                _secondCard.color = (Color)secondColorIndex;
+                SecondCard.figure = (Figure)secondFigureIndex;
+                SecondCard.color = (Color)secondColorIndex;
             }
-            while (_firstCard == _secondCard);
+            while (FirstCard == SecondCard);
         }
 
-        Card _firstCard;
-        Card _secondCard;
+        public Card FirstCard { get; private set; }
+        public Card SecondCard { get; private set; }
     }
 
     class Card
