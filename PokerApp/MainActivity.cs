@@ -6,7 +6,6 @@ using Android.Support.V7.App;
 namespace PokerApp
 {
 
-    //Dulec jest najlepszy
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
@@ -16,6 +15,7 @@ namespace PokerApp
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
+            this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         }
     }
 }
