@@ -16,8 +16,6 @@ namespace PokerApp
     {
         public StackGeneratorHU()
         {
-            FirstPerson = new int();
-            SecondPerson = new int();
             GenerateStack();
         }
 
@@ -30,14 +28,12 @@ namespace PokerApp
 
         public int FirstPerson { get; protected set; }
         public int SecondPerson { get; protected set; }
-
     }
 
     class StackGenerator3way : StackGeneratorHU
     {
         public void StackGenerator()
         {
-            ThirdPerson = new int();
             GenerateStack();
         }
 
