@@ -14,7 +14,7 @@ namespace PokerApp
 {
     class CardsGenerator
     {  
-        CardsGenerator()
+        public CardsGenerator()
         {
             FirstCard = new Card();
             SecondCard = new Card();
