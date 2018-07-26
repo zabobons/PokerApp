@@ -22,7 +22,7 @@ namespace PokerApp
 
     enum Figure
     {
-        Two,//0
+        Two=2,//0
         Three,
         Four,
         Five,
