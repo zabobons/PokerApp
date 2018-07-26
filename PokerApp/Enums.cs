@@ -22,9 +22,7 @@ namespace PokerApp
 
     enum Figure
     {
-        Ace, //0
-        One,
-        Two,
+        Two,//0
         Three,
         Four,
         Five,
@@ -35,6 +33,7 @@ namespace PokerApp
         Ten,
         Jack,
         Quenn,
-        King //13
+        King,
+        Ace//12
     }
 }
